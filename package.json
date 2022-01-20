@@ -1,6 +1,6 @@
 {
   "name": "@amirhshahbazi/vinfinite-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/vinfinite-scroll.ssr.js",
   "browser": "dist/vinfinite-scroll.esm.js",
