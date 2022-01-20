@@ -29,7 +29,7 @@ import VinfiniteScroll from "@amirhshahbazi/vinfinite-scroll"
 ```
 
 ### Add the component to the end of the list you want to use
-Everytime the scroll position reaches `vinfinite-scroll`, the `notifyEndReached` is invoked.
+Every time the scroll position reaches `vinfinite-scroll`, the `notifyEndReached` is invoked.
 ```js
   <div class="list">
     <div v-for="(item) in list" :key="item">
