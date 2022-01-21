@@ -6,8 +6,9 @@
 
 > Infinite scroll component for Vue.js
 - 🟩 Easy to use
+- 🟩 SSR compatible
 
-Vinfinite Scroll works with Vue 2 currently, but soon it will support both Vue 3 and SSR projects.
+Vinfinite Scroll currently works with Vue 2.
 
 ---
 
@@ -86,6 +87,22 @@ export default {
 }
 </script>
 
+```
+
+---
+
+## Use with Nuxt
+Inside `plugins/vinfinite-scroll.js`:
+```js
+import Vue from 'vue'
+import VinfiniteScroll from '@amirhshahbazi/vinfinite-scroll'
+
+Vue.use(VinfiniteScroll)
+```
+
+In the pages or components:
+```vue
+<vinfinite-scroll @notifyEndReached="notify" />
 ```
 
 ---
