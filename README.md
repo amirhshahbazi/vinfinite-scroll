@@ -4,12 +4,11 @@
 
 # Vinfinite Scroll
 
+For the Vue3 version, go [here](https://github.com/amirhshahbazi/vinfinite-scroll-next).
+
 > Infinite scroll component for Vue.js
 - 🟩 Easy to use
 - 🟩 SSR compatible
-
-Vinfinite Scroll currently works with Vue 2.
-
 ---
 
 ## Installation
